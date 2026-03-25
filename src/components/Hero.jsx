@@ -49,7 +49,7 @@ export default function Hero() {
     <section id="hero">
       <div className="hero-bg">
         <img
-          src="public/images/hero-bali-rice-terrace-rain.jpg"
+          src="/images/hero-bali-rice-terrace-rain.jpg"
           alt="Bali rice terraces in rain"
           className="hero-bg-img"
         />
