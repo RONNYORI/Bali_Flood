@@ -31,7 +31,7 @@ export const timelineData = [
     date: 'FEBRUARI 2017',
     title: 'Banjir Denpasar Selatan',
     desc: 'Hujan deras 6 jam menyebabkan genangan 80 cm di Sanur dan Renon. Ratusan kendaraan terjebak selama berjam-jam.',
-    img: 'public/images/timeline-denpasar-2017.jpg',
+    img: '/images/timeline-denpasar-2017.jpg',
     tags: [{ label: 'Denpasar', type: 'flood' }, { label: 'Sedang', type: 'medium' }],
   },
   {
@@ -39,7 +39,7 @@ export const timelineData = [
     date: 'JANUARI 2018',
     title: 'Banjir Bandang Jembrana',
     desc: 'Tukad Biluk Poh meluap, menghantam 3 desa. Kerusakan Rp 4,2 miliar. 180 keluarga mengungsi ke tempat lebih aman.',
-    img: 'public/images/timeline-jembrana-2018.jpg',
+    img: '/images/timeline-jembrana-2018.jpg',
     tags: [{ label: 'Jembrana', type: 'flood' }, { label: 'Parah', type: 'severe' }],
   },
   {
@@ -47,7 +47,7 @@ export const timelineData = [
     date: 'MARET 2019',
     title: 'Banjir Kuta & Seminyak',
     desc: 'Kawasan wisata premium lumpuh. Air 1,2 m menggenangi hotel dan restoran. Kerugian pariwisata Rp 25 miliar.',
-    img: 'public/images/timeline-kuta-2019.jpg',
+    img: '/images/timeline-kuta-2019.jpg',
     tags: [{ label: 'Badung', type: 'flood' }, { label: 'Kritis', type: 'critical' }],
   },
   {
@@ -55,7 +55,7 @@ export const timelineData = [
     date: 'DESEMBER 2020',
     title: 'Banjir Multi-Kabupaten',
     desc: 'Hujan ekstrem 3 hari melanda 6 kabupaten sekaligus. 870 rumah rusak, 2 korban jiwa, 1.200 warga mengungsi.',
-    img: 'public/images/timeline-multi-2020.jpg',
+    img: '/images/timeline-multi-2020.jpg',
     tags: [{ label: 'Multi-Kabupaten', type: 'flood' }, { label: 'Darurat', type: 'emergency' }],
   },
   {
@@ -63,7 +63,7 @@ export const timelineData = [
     date: 'FEBRUARI 2022',
     title: 'Banjir Denpasar Utara',
     desc: 'Tukad Badung meluap pasca pembangunan mall di bantaran sungai. Kompleks Pemecutan Kaja terendam 3 hari berturut-turut.',
-    img: 'public/images/timeline-denpasar-2022.jpg',
+    img: '/images/timeline-denpasar-2022.jpg',
     tags: [{ label: 'Denpasar', type: 'flood' }, { label: 'Parah', type: 'severe' }],
   },
   {
@@ -71,7 +71,7 @@ export const timelineData = [
     date: 'JANUARI 2024 · TERBARU',
     title: 'Banjir Terparah: Buleleng',
     desc: 'Banjir bandang terbesar dalam 20 tahun. Air 1,8 m, 3.200 jiwa terdampak, kerugian Rp 78 miliar. Jembatan Tukad Saba roboh.',
-    img: 'public/images/timeline-buleleng-2024.jpg',
+    img: '/images/timeline-buleleng-2024.jpg',
     tags: [{ label: 'Buleleng', type: 'flood' }, { label: 'DARURAT NASIONAL', type: 'national-emergency' }],
     critical: true,
   },
@@ -79,7 +79,7 @@ export const timelineData = [
 
 export const causesData = [
   {
-    img: 'public/images/cause-heavy-rain.jpeg',
+    img: '/images/cause-heavy-rain.jpeg',
     imgPosition: 'center 45%',
     title: 'Curah Hujan Ekstrem',
     desc: 'Peningkatan intensitas hujan akibat perubahan iklim melampaui kapasitas infrastruktur drainase yang ada.',
@@ -90,7 +90,7 @@ export const causesData = [
               <line x1="32" y1="36" x2="30" y2="43" stroke="#59b3ff" stroke-width="2" stroke-linecap="round"/>`,
   },
   {
-    img: 'public/images/cause-land-conversion.jpg',
+    img: '/images/cause-land-conversion.jpg',
     imgPosition: 'center 10%',
     title: 'Alih Fungsi Lahan',
     desc: 'Ribuan hektar sawah dan hutan resapan dialihkan menjadi villa, hotel, dan kompleks perumahan setiap tahunnya.',
@@ -102,7 +102,7 @@ export const causesData = [
               <line x1="6" y1="42" x2="42" y2="42" stroke="#c9a84c" stroke-width="1.8" stroke-linecap="round"/>`,
   },
   {
-    img: 'public/images/cause-waste.jpeg',
+    img: '/images/cause-waste.jpeg',
     imgPosition: 'center 24%',
     title: 'Sampah & Sedimentasi',
     desc: 'Sungai dan drainase tersumbat 4.000+ ton sampah yang tidak terkelola dengan baik setiap harinya.',
@@ -114,7 +114,7 @@ export const causesData = [
               <line x1="28" y1="20" x2="28" y2="34" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>`,
   },
   {
-    img: 'public/images/cause-drainage.jpg',
+    img: '/images/cause-drainage.jpg',
     imgPosition: 'center 25%',
     title: 'Drainase Usang',
     desc: 'Sistem drainase Denpasar dibangun 1970-an untuk 100.000 jiwa, kini harus melayani 900.000+ jiwa.',
@@ -128,7 +128,7 @@ export const causesData = [
               <circle cx="34" cy="24" r="2.5" stroke="#59b3ff" stroke-width="1.4"/>`,
   },
   {
-    img: 'public/images/cause-lanina.png',
+    img: '/images/cause-lanina.png',
     imgPosition: 'center 20%',
     title: 'Pengaruh La Niña',
     desc: 'Fenomena La Niña memperkuat musim hujan, membawa curah hujan 30–40% di atas normal di Bali.',
@@ -138,7 +138,7 @@ export const causesData = [
               <path d="M8 36 Q14 30 20 36 Q26 42 32 36 Q38 30 42 34" stroke="#59b3ff" stroke-width="1.4" stroke-linecap="round" fill="none" opacity="0.45"/>`,
   },
   {
-    img: 'public/images/cause-spatial.jpg',
+    img: '/images/cause-spatial.jpg',
     imgPosition: 'center 25%',
     title: 'Lemahnya Tata Ruang',
     desc: 'Perizinan bangunan di zona rawan banjir terus diterbitkan meski melanggar Perda RTRW Bali.',
@@ -155,7 +155,7 @@ export const causesData = [
 export const thkPillarsData = [
   {
     headerClass: 'thk-parhyangan',
-    img: 'public/images/pillar-parhyangan.jpg',
+    img: '/images/pillar-parhyangan.jpg',
     number: '01',
     sanskrit: 'Parahyangan',
     title: 'Hubungan dengan Tuhan',
@@ -169,7 +169,7 @@ export const thkPillarsData = [
   },
   {
     headerClass: 'thk-pawongan',
-    img: 'public/images/pillar-pawongan.jpeg',
+    img: '/images/pillar-pawongan.jpeg',
     number: '02',
     sanskrit: 'Pawongan',
     title: 'Hubungan antar Manusia',
@@ -183,7 +183,7 @@ export const thkPillarsData = [
   },
   {
     headerClass: 'thk-palemahan',
-    img: 'public/images/pillar-palemahan.jpg',
+    img: '/images/pillar-palemahan.jpg',
     number: '03',
     sanskrit: 'Palemahan',
     title: 'Hubungan dengan Alam',
@@ -198,20 +198,20 @@ export const thkPillarsData = [
 
 export const solutionsData = [
   {
-    img: 'public/images/solution-green-land.jpg',
+    img: '/images/solution-green-land.jpg',
     title: 'Restorasi Lahan Hijau',
     desc: 'Moratorium izin konversi lahan pertanian dan pemulihan 5.000 ha ruang terbuka hijau di kawasan penyangga utama.',
     svgPath: `<path d="M16 28 Q16 14 4 4 Q16 6 28 4 Q16 14 16 28Z" stroke="#c9a84c" stroke-width="1.5" fill="none"/>
               <line x1="16" y1="28" x2="16" y2="16" stroke="#c9a84c" stroke-width="1.5" stroke-linecap="round"/>`,
   },
   {
-    img: 'public/images/solution-drainage.png',
+    img: '/images/solution-drainage.png',
     title: 'Revitalisasi Drainase',
     desc: 'Investasi Rp 2 triliun untuk sistem drainase terintegrasi dengan kapasitas 3× lebih besar dari yang ada saat ini.',
     svgPath: `<path d="M16 4 Q9 13 9 19 a7 7 0 0 0 14 0 Q23 13 16 4Z" stroke="#59b3ff" stroke-width="1.5" fill="none"/>`,
   },
   {
-    img: 'public/images/solution-early-warning.jpeg',
+    img: '/images/solution-early-warning.jpeg',
     title: 'Sistem Peringatan Dini',
     desc: 'Jaringan sensor IoT di 47 titik rawan banjir terhubung langsung dengan sistem notifikasi warga berbasis SMS.',
     svgPath: `<circle cx="16" cy="20" r="3" stroke="#c9a84c" stroke-width="1.5"/>
