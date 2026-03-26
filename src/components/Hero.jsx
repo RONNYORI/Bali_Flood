@@ -63,7 +63,7 @@ export default function Hero() {
 
         <div id="hero-tag" className="inline-flex items-center gap-2 px-5 py-2 rounded-full card-glass text-xs font-mono text-bali-gold mb-8 hero-fade">
           <span className="w-1.5 h-1.5 rounded-full bg-bali-gold animate-pulse"></span>
-          DATA STORYTELLING · BALI 2024
+          DATA STORYTELLING · BALI 2026
           <span className="w-1.5 h-1.5 rounded-full bg-bali-gold animate-pulse"></span>
         </div>
 

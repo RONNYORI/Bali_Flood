@@ -68,10 +68,10 @@ export const timelineData = [
   },
   {
     side: 'left',
-    date: 'JANUARI 2024 · TERBARU',
+    date: 'JANUARI 2026 · TERBARU',
     title: 'Banjir Terparah: Buleleng',
     desc: 'Banjir bandang terbesar dalam 20 tahun. Air 1,8 m, 3.200 jiwa terdampak, kerugian Rp 78 miliar. Jembatan Tukad Saba roboh.',
-    img: '/images/timeline-buleleng-2024.jpg',
+    img: '/images/timeline-buleleng-2026.jpg',
     tags: [{ label: 'Buleleng', type: 'flood' }, { label: 'DARURAT NASIONAL', type: 'national-emergency' }],
     critical: true,
   },

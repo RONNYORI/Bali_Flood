@@ -23,7 +23,7 @@ export default function Footer() {
               </svg>
               <div className="font-display text-2xl font-bold gradient-gold-text">BALI BANJIR</div>
             </div>
-            <div className="text-xs text-muted font-mono pl-7">DATA STORYTELLING · 2024</div>
+            <div className="text-xs text-muted font-mono pl-7">DATA STORYTELLING · 2026</div>
           </div>
 
           <div className="text-center text-xs text-muted leading-relaxed">
@@ -38,7 +38,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-white/5 text-center text-xs text-muted">
-          © 2024 Polemik Banjir di Bali — Data Storytelling Project. Semua data bersifat indikatif untuk keperluan edukasi.
+          © 2026 Polemik Banjir di Bali — Data Storytelling Project. Semua data bersifat indikatif untuk keperluan edukasi.
         </div>
 
       </div>
