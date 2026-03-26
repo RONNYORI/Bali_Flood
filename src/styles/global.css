@@ -134,7 +134,22 @@ html:not(.dark) .thk-pillar-body { background: rgba(255,255,255,0.8) !important;
   transform: translate(-50%, -50%);
   transition: transform 0.12s ease, width 0.2s, height 0.2s, border-color 0.2s;
 }
-@media (max-width: 768px) { #cursor-dot, #cursor-ring { display: none; } body { cursor: auto; } }
+
+@media (max-width: 768px) {
+  .tri-hita-intro-grid {
+    grid-template-columns: 1fr;
+    gap: 0;                      /* ← hapus gap */
+  }
+
+  .tri-hita-intro-img {
+    min-height: 0;               /* ← override min-height: 300px */
+    height: 220px;               /* ← fixed height */
+  }
+
+  .tri-hita-intro-grid > div:last-child {
+    padding: 20px !important;    /* ← kurangi padding teks */
+  }
+}
 
 /* ── Glassmorphism ─────────────────────────────────────── */
 .card-glass {

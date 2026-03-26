@@ -52,7 +52,7 @@ export default function TriHitaKarana() {
         <div className="tri-hita-intro card-glass rounded-3xl overflow-hidden mb-16 reveal">
           <div className="tri-hita-intro-grid">
             <div className="tri-hita-intro-img">
-              <img src="images/tri-hita-karana.jpg" alt="Tri Hita Karana Bali" />
+              <img src="/images/tri-hita-karana.jpg" alt="Tri Hita Karana Bali" />
             </div>
             <div className="p-8 sm:p-12">
               <h3 className="font-display text-2xl sm:text-3xl font-bold mb-4">
